@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div{
+  background-color: var(--Dark-Blue);
+  padding: 8%;
+}
+.advice-container{
+  width: 90%;
+  height: 100%;
+  margin: 50px auto;
+  background-color: var(--Dark-Grayish-Blue);
+  padding: 15%;
+  position: relative;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.advice{
+  color: var(--Light-Cyan);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.id-number{
+  color: var(--Neon-Green);
+}
+.pause{
+  width: 90%;
+}
+.dicebg{
+  background-color: var(--Neon-Green);
+  padding: 15px;
+  border-radius: 100px;
+  position: absolute;
+  right: 40%;
+  bottom: -10%;
+}
+@media (min-width:769px){
+  .advice-container{
+    padding: 5%;
+  }
+  .dicebg{
+    right: 43%;
+  }
+}
