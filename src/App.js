@@ -61,17 +61,17 @@ function App() {
 
   // let student1 = 'Olamide'
 
-  let changeName = () => {
-    // student1 = 'Fakorede'
-    // console.log(student1);
-    // setName('Fakorede')
+  // let changeName = () => {
+  //   // student1 = 'Fakorede'
+  //   // console.log(student1);
+  //   // setName('Fakorede')
 
-    if (name === "Olamide") {
-      setName("Fakorede");
-    } else {
-      setName("Olamide");
-    }
-  };
+  //   if (name === "Olamide") {
+  //     setName("Fakorede");
+  //   } else {
+  //     setName("Olamide");
+  //   }
+  // };
 
   return (
     <div className="App">
